@@ -115,7 +115,8 @@ form h3{font-size:1.8rem;margin-bottom:10px}
 form .n{font-size:.9rem;color:var(--mute);margin-bottom:22px}
 label{display:block;font-weight:600;font-size:.9rem;margin:16px 0 6px}
 input{width:100%;padding:15px 18px;border-radius:14px;border:1.5px solid var(--line);background:#fff;font:inherit;color:var(--ink)}
-input:focus{outline:none;border-color:var(--green);box-shadow:0 0 0 4px rgba(63,138,58,.15)}
+select{width:100%;padding:15px 18px;border-radius:14px;border:1.5px solid var(--line);background:#fff;font:inherit;color:var(--ink)}
+input:focus,select:focus{outline:none;border-color:var(--green);box-shadow:0 0 0 4px rgba(63,138,58,.15)}
 form .btn{width:100%;margin-top:26px;text-align:center}
 #ok{display:none;margin-top:18px;font-weight:600;color:var(--deep)}
 /* crisis + footer */
